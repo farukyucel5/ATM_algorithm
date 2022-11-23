@@ -29,6 +29,7 @@ Sifre değiştirme işleminde mevcut şifreyi teyit ettikten sonra, sifre deği�
         String card_number = scan.nextLine();
 
         boolean security_check = check(password, card_number);
+
         mainmenu(security_check);
            
        }
@@ -130,6 +131,7 @@ Sifre değiştirme işleminde mevcut şifreyi teyit ettikten sonra, sifre deği�
 
             return card_number.equals(user_card_number);
         }
+
 
         return false;
     }
